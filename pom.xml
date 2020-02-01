@@ -26,17 +26,18 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				<CloudHubDeployment>
+			
+				<cloudHubDeployment>
 				<username>prudhvibec01</username>
-				<environment>Sandbox</environment>
 				<password>Mokhamatam@451</password>
+				<muleVersion>4.2.2</muleVersion>
+				<environment>Sandbox</environment>
 				<workers>1</workers>
 				<workerType>Micro</workerType>
-				<applicatioName>cicd_new</applicatioName>
-				<muleVersion>4.2.2</muleVersion>
-				
-				</CloudHubDeployment>
+				<applicationName>cicd_new</applicationName>
+				</cloudHubDeployment>
 				</configuration>
+				
 			</plugin>
 		</plugins>
 	</build>
